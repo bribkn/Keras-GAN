@@ -182,7 +182,8 @@ class WGAN():
                 axs[i,j].imshow(gen_imgs[cnt, :,:,0], cmap='gray')
                 axs[i,j].axis('off')
                 cnt += 1
-        fig.savefig("images/mnist_%d.png" % epoch)
+        fig.savefig("images/mnist/mnist_%d.png" % epoch)
+#        fig.savefig("./images/img_1.jpg")
         plt.close()
 
 
